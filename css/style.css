@@ -44,10 +44,30 @@ body{
     width: 100%;
     transform: all 0.1s; 
 }
+.menu-text{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    display: block;
+    width: 100%;
+}
+.menu-text:hover{
+    color: blue;
+}
+.menu-text-sub{
+    font-size: 0.6rem;
+    position: relative;
+    bottom: 6px;
+    color: black;
+}
+
 
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+    .links-font-size {
+        font-size: 0.7rem;
+    }
    
 }
 /* Small devices (landscape phones, less than 768px) */
@@ -81,6 +101,7 @@ body{
     background-color: rgb(199, 194, 194);
     position: relative;
     bottom: 18px;
+    width:24.99%;
     }
     .hambuger-menu.active{
         flex-direction: column;
