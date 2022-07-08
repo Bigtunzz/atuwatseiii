@@ -25,6 +25,10 @@ body{
     /* font-size */
     --fs-link: 12.8px;
 }
+.hamburger{
+    position: fixed;
+    display: none;
+}
 
 
 /* X-Small devices (portrait phones, less than 576px) */
@@ -53,6 +57,9 @@ body{
     .arrow-left{
         display: none;
        }
+    .hamburger{
+        display: flex;
+    }
  }
 
  /* X-Large devices (large desktops, less than 1400px) */
